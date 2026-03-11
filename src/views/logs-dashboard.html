@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logs Dashboard</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Logs Dashboard</h1>
+    </header>
+
+    <main>
+        <!-- Sidebar for logs -->
+        <aside class="sidebar">
+            <section>
+                <h2>Root Logs</h2>
+                <ul id="rootFiles"></ul>
+            </section>
+
+            <section>
+                <h2>Categories</h2>
+                <ul id="categories"></ul>
+            </section>
+        </aside>
+
+        <!-- Log content area -->
+        <section class="log-content">
+            <h2>Log Content</h2>
+            <pre id="logContent">Select a file to view its content...</pre>
+        </section>
+    </main>
+</body>
+
+</html>
